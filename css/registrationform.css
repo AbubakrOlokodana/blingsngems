@@ -1,0 +1,144 @@
+body
+{
+    background-image: url(/images/whitebackground6.jpg);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    position: relative;
+}
+
+.main-nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.active, main-nav li:hover
+{
+    border-radius:3px ;
+}
+
+.main-nav  li a:hover
+{
+    color: darkorange;
+}
+
+.logo img
+{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.wrap
+{
+    
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: white;
+    box-sizing: border-box;
+    padding: 20px;
+    color: black;
+    margin-top: 90px;
+    height: 443;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    
+}
+
+
+.address
+{
+    height: 70px;
+}
+
+
+
+h2
+{
+    text-align: center;
+    font-size: 30;
+}
+
+input[type=text], input[type=password], input[type=email]
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    border-bottom: 3px dotted #fff;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input[type=submit] 
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0px; 
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s linear;
+}
+
+input[type=submit]:hover 
+{
+    background: darkorange;
+    opacity: 0.7;
+    color: black;
+}
+
+.container
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: darkorange;
+    border:  black;
+    width: 150px;
+    padding: 1px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 90px;
+    position: absolute;
+    margin-left: 190px;
+    margin: auto;
+    border-radius: 7px;
+    box-sizing: border-box;
+    top: 0%;
+    left: 2%;
+}
